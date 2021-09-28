@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    background-color: brown;
+}
+
+body > * {
+    margin: 60px;
+}
+
+button{
+    display: block;
+    width: 200px;
+    height: 45px;
+    background-color: coral;
+    color: cornflowerblue;
+    border: 3px solid goldenrod;
+    font-size: 2em;
+    border-radius: 20%;
+    box-shadow: -7px 3px 15px -4px white;
+    transition: background-color ease-in-out .8s, color ease-in .4s .6s;
+    
+}
+
+button:hover{
+    background-color: violet;
+    color: rosybrown;
+    cursor: pointer;
+}
+
+.btn2{
+    transition: all .4 ease-in-out;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border-radius: 50%;
+    animation: .5s infinite alternate adieulesyeux;
+}
+
+@keyframes adieulesyeux {
+    0%{
+        background-color: lime;
+        transform: translateX(0);
+    }
+    25%{
+        background-color: lime;
+        transform: translateX(200px);
+    }
+    50%{
+        background-color: mediumvioletred;
+        transform: translateX(400px);
+    }
+    75%{
+        background-color: linen;
+        transform: translateX(600px);
+    }
+    100%{
+        background-color: magenta;
+        transform: translateX(800);
+    }
+}
