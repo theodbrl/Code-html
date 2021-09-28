@@ -1,0 +1,19 @@
+.liste{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+    letter-spacing: 5px;
+    text-decoration: underline wavy;
+
+
+}
+
+.liste-animaux{
+    color: hotpink;
+    
+} 
+
+#animaux{
+    list-style-type: circle;
+}

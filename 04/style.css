@@ -1,0 +1,11 @@
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    background-color: lightcoral;
+    font-family: cursive;
+    padding: 20px 30px;
+}
+
+.wrapper img {
+    width: 300px;
+}

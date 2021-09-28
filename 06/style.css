@@ -1,0 +1,23 @@
+ .box{
+     width: 150px;
+     height: 150px;
+     margin: 10px;
+     background-color: brown;
+
+ }
+
+ .conteneur{
+     width: 80%;
+     height: 350px;
+     margin: 0auto;
+     background-color: cornflowerblue;
+     display: flex ;
+     justify-content: flex-start;
+     align-items: flex-end;
+
+ }
+
+ .boxSmall{
+     align-self: center;
+    
+ }
