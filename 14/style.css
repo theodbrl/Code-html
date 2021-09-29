@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color:white;
+    font-family: cursive;
+}
+
+div{
+    width: 960px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: -7px 10px 5px rgba(0, 0, 0,061);
+
+}
+
+.quote:before{
+    content: ">";
+    color: crimson;
+}
+
+
+div h1{
+    position: relative;
+    font-size: 1.4em;
+    color: pink;
+    display: inline;
+
+}
+
+div h1:before{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: all .4s ease-in-out;
+    transform: scaleX(0);
+
+}
+
+div h1:hover:before{
+    transform: scaleX(1);
+}
